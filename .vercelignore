@@ -1,0 +1,25 @@
+# Dependencies & Build artifacts
+node_modules/
+dist/
+.vercel/
+
+# Tooling and local files
+.codex/
+.agents/
+adds/REVIEW/
+skills-lock.json
+
+# Tests
+tests/
+
+# Git & editor
+.git/
+.github/
+.vscode/
+.idea/
+
+# Environment files & logs
+.env*
+!.env.example
+*.local
+*.log

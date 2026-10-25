@@ -1,4 +1,4 @@
-﻿# Deployment Result — PULSE to GitHub & Vercel
+# Deployment Result — PULSE to GitHub & Vercel
 
 **Date**: 2026-10-25
 **Workspace**: `D:\testGPTPLUS`
@@ -64,4 +64,3 @@
 ## 5. Release
 
 The first release uses version `v1.0.0`, matching `package.json`. Release publication and subsequent production readiness are verified against the repository's commit and Vercel deployment metadata.
-

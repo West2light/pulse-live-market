@@ -1,4 +1,4 @@
-﻿# PULSE — Real-Time Crypto Market Terminal
+# PULSE — Real-Time Crypto Market Terminal
 
 A high-performance, editorial fintech landing page and real-time market tracker for cryptocurrency pairs streaming directly from **Kraken Spot WebSocket v2** (`wss://ws.kraken.com/v2`).
 
@@ -144,4 +144,3 @@ All verification suites pass cleanly:
    - Elevated `--color-negative` to `#ff6b8b` and negative change badge text to `#ffa3b5` (> 5.5:1 contrast).
    - Neutral change indicator displays `—` without inventing 0 for missing 24h change deltas.
    - All interactive controls feature visible focus outlines (`2px solid var(--accent-cyan)` with `3px` offset).
-

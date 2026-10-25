@@ -1,8 +1,14 @@
-# PULSE — Real-Time Crypto Market Terminal
+﻿# PULSE — Real-Time Crypto Market Terminal
 
 A high-performance, editorial fintech landing page and real-time market tracker for cryptocurrency pairs streaming directly from **Kraken Spot WebSocket v2** (`wss://ws.kraken.com/v2`).
 
 Built with React 19, TypeScript, and Vite. Features zero synthetic data, resilient connection state machines, in-memory session sparklines, and coalesced rendering.
+
+**Live site:** https://pulse-live-market.vercel.app
+**GitHub:** https://github.com/West2light/pulse-live-market
+**Deployment report:** [adds/PLAN/pulse-deployment-result.md](adds/PLAN/pulse-deployment-result.md)
+
+Vercel is connected to this repository with `main` as the production branch.
 
 ---
 
@@ -35,7 +41,7 @@ Built with React 19, TypeScript, and Vite. Features zero synthetic data, resilie
 - **Framework**: React 19 + TypeScript (strict mode)
 - **Bundler / Dev Server**: Vite 6
 - **Test Runner**: Vitest 3 + `@testing-library/react` + `jsdom`
-- **Linting**: ESLint 9 + TypeScript-ESLint
+- **Linting**: ESLint 10 + TypeScript-ESLint
 - **Styling**: Pure CSS with CSS variables, responsive grid, and SVG graphics (no bloated UI library dependencies)
 
 ---
@@ -138,3 +144,4 @@ All verification suites pass cleanly:
    - Elevated `--color-negative` to `#ff6b8b` and negative change badge text to `#ffa3b5` (> 5.5:1 contrast).
    - Neutral change indicator displays `—` without inventing 0 for missing 24h change deltas.
    - All interactive controls feature visible focus outlines (`2px solid var(--accent-cyan)` with `3px` offset).
+
